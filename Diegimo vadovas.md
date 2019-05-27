@@ -1,11 +1,11 @@
 # ASP.NET-UZDUOTIS
 
 
-1. atidarykite failą "Uzduoties aplankas"/WebApplication1/appsettings.json
-2. trečioje eilutėje pakeiskite connection string ir duomenu bazes pavadinimą 
+1. Atidarykite failą "Užduoties aplankas"/WebApplication1/appsettings.json
+2. Trečioje eilutėje pakeiskite "connection string" ir duomenų bazės pavadinimą 
 "DefaultConnection": "Server=localhost;Database=test4;Trusted_Connection=True;"
 
-3.atsidare projektą isijunkite "package manager console" ir įvesti dvi komandas:
+3.Atsidarykite projektą įsijunkite "package manager console" ir įvesti dvi komandas:
   1. add-migration InitialCreate
   2. update-database
   
